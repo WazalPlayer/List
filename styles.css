@@ -1,0 +1,46 @@
+.montserrat-sd {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+body {
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+}
+.boxes {
+    display: flex;
+}
+.button {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    transition: box-shadow 0.15s;
+    margin-top: 5px;
+    margin: 5px 5px 5px 5px;
+}
+.button:hover {
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.main-box {
+    background-color: white;
+    margin: 5px 5px 5px 5px;
+    box-shadow: 0 3px 3px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: transform 0.3s;
+}
+.main-box:hover {
+    transform: translateY(-4px);
+}
+.level-box {
+    align-self: center;
+    cursor: pointer;
+}
+.list-name {
+    position: sticky;
+    background-color: rgb(230, 230, 230);
+}
